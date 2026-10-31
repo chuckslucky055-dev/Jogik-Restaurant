@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Explore the restaurant menu and start an order",
+    "sanity": true,
+    "viewport": "desktop",
+    "covers": ["menu browsing", "WhatsApp ordering"],
+    "description": "Verifies the core restaurant discovery flow and visible ordering CTA.",
+    "steps": [
+      "Open the website",
+      "Select Explore the menu",
+      "Choose Party Jollof Rice and click Order"
+    ],
+    "expected": "The menu is visible and the Party Jollof Rice order action opens WhatsApp with an order message."
+  },
+  {
+    "name": "Use the event enquiry path on mobile",
+    "viewport": "mobile",
+    "covers": [
+      "event hosting",
+      "mobile responsive layout",
+      "WhatsApp event enquiry"
+    ],
+    "description": "Verifies the event promotion and contact action remain usable on a phone-sized viewport.",
+    "steps": [
+      "Open the website on mobile",
+      "Scroll to the event section",
+      "Tap Plan an event"
+    ],
+    "expected": "The event section is readable and the WhatsApp event enquiry link opens."
+  },
+  {
+    "name": "Find both restaurant locations",
+    "viewport": "desktop",
+    "covers": ["location information", "directions links"],
+    "description": "Verifies both public locations and their map actions are presented.",
+    "steps": [
+      "Open the Contact section",
+      "Review the Rumuola location",
+      "Review the Izo Ahia location",
+      "Click a Get directions link"
+    ],
+    "expected": "Both locations are visible and the directions action points to Google Maps."
+  },
+  {
+    "name": "Contact the restaurant from the footer",
+    "viewport": "mobile",
+    "covers": ["contact information", "email link", "WhatsApp link"],
+    "description": "Verifies the footer exposes direct contact options.",
+    "steps": ["Scroll to the footer", "Tap WhatsApp", "Return and tap Email"],
+    "expected": "The footer shows WhatsApp and email contact actions with the published restaurant contact details."
+  }
+]
