@@ -1,19 +1,14 @@
-# Jogik Restaurant
+# Jogik Eatery & Restaurant
 
-Responsive restaurant and hospitality website demo for Jogik Eatery & Restaurant in Port Harcourt.
+Restaurant website concept with Nigerian and continental menu highlights, WhatsApp ordering and reservations, event enquiries, guest testimonials and location information.
 
-## Features
-- Restaurant introduction and menu highlights
-- WhatsApp ordering and reservation enquiry links
-- Events and catering information
-- Restaurant location details and map directions
+**Live demo:** https://jogik-eatery-restaurant-paaxav.v2.appdeploy.ai/
 
 ## Run locally
+
 ```bash
 npm install
 npm run dev
 ```
 
-Live demo: https://jogik-eatery-restaurant-paaxav.v2.appdeploy.ai/
-
-This is a demo website; confirm menu, pricing, availability and business details with the restaurant.
+Demo website. Confirm business details and menu content before production use.
